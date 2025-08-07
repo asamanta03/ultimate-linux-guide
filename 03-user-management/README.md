@@ -46,6 +46,7 @@ passwd username
   chage -M 90 username
   ```
 - Password expiration check
+- 
   chage -l username
 - **Lock a user account**
   ```bash
