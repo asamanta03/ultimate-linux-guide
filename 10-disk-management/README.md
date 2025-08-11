@@ -119,4 +119,14 @@ swapon /dev/sdX
 ### Disable Swap
 ```bash
 swapoff /dev/sdX
+how to mount volume:
+create a volume and attach volume from console
+create a directory:
+mkdir -p /mnt/new-demo
+corvert volume to specific file system:
+ext4 or xfs
+mkfs -t ext4 /dev/xvdf
+mount volume:
+mount /dev/xvdf /mnt/new-demo
+
 ```
